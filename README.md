@@ -4,3 +4,5 @@ Suman's Academy
 
 app.use(express.json({limit:'1mb'})) // allows parsing of 'body' data, i.e. req.body.data  
 app.use(express.urlencoded({limit:'1mb',extended:true}))  
+
+/server$ node --watch --env-file=../.env server.js  
